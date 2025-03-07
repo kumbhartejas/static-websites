@@ -5,6 +5,9 @@ margin:0;box-sizing: border-box;
 body{overflow-x: hidden;}
  h1{font-family: "Dancing Script", cursive}
 
- .carousel-item{height:85vh; width:100%}
+ .carousel-item img{height:85vh; width:100% ; margin-top: 70px;}
 
- .card-body{min-width:50%;max-width:200px;}
+ .card-body img{min-width:50%;max-width:200px;}
+ 
+
+ 
