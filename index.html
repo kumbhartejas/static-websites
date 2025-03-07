@@ -3,11 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Frontend Projects</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1><a href="1-tribute-website/index.html" target="_blank">Tribute website</a></h1>
-    <h1><a href="2-application-form" target="_blank">Application form</a></h1>
-    <h1><a href="3-Educational-courses-website" target="_blank">Educational courses website </a></h1>
+    <h1>Frontend Projects</h1>
+    <div class="controls">
+        <input type="text" id="search" onkeyup="searchTable()" placeholder="Search projects...">
+        <button onclick="sortTable(false)">Show New</button>
+        <button onclick="sortTable(true)">Show Old</button>
+        <label for="rows">Show: </label>
+        <select id="rows" onchange="updateRows()">
+            <option value="all" selected>All</option>
+            <option value="5">5 results</option>
+            <option value="10">10 results</option>
+            <option value="15">15 results</option>
+            <option value="20">20 results</option>
+            <option value="25">25 results</option>
+            <option value="30">30 results</option>
+        </select>
+    </div>
+    <table id="dataTable">
+        <thead>
+            <tr>
+                <th onclick="sortTable(false)">Sr No</th>
+                <th onclick="sortTable(false)">Title</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+            <tr><td>1</td><td><a href="1-tribute-website/index.html" target="_blank">Tribute website</a></td></tr>
+            <tr><td>2</td><td><a href="2-application-form/index.html" target="_blank">Job Application Form</a></td></tr>
+            <tr><td>3</td><td><a href="3-Educational-courses-website/index.html-" target="_blank">Educational Website</a></td></tr>
+           
+        </tbody>
+    </table>
+    <div id="pagination"></div>
+    <script src="script.js"></script>
 </body>
 </html>
