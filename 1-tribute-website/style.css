@@ -88,5 +88,6 @@ footer{
 } .image{height: auto;width: auto;margin-left:3px ;}  .about h1{font-size:35px;
     word-wrap: break-word;
     box-sizing: border-box;}
-    #title {font-size:35px;}.top{display: block;}.content{margin:5px;}
+    #title {font-size:35px;}.top{display: block;}
+    .content{margin:0px 50px 10px 50px;}
 }
