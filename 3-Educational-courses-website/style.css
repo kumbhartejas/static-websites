@@ -2,10 +2,18 @@
 margin:0;box-sizing: border-box;
 }
 
+
+html {  scroll-padding-top: 70px;}
+
+
+
+
+
+
 html body{overflow-x: hidden;}
  h1{font-family: "Dancing Script", cursive}
 
- .carousel-item img{height:85vh; width:100% ; margin-top: 70px;}
+ .carousel-item img{height:85vh; width:100% ; margin-top: 73px;}
 
  .card-body img{min-width:50%;max-width:200px;}
 a{cursor: pointer;}
@@ -22,7 +30,7 @@ a{cursor: pointer;}
  
 
 
-.ft img{overflow-x:hidden; height:35px; width: 50px; border: none !important ; } 
+.ft img{overflow-x:hidden; height:35px; width: 50px; border: none !important ;} 
 .ft h5{font-size: small;margin-bottom: 20px;}
 .endbox{max-width:40vw;margin:auto;}
 
