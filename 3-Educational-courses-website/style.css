@@ -2,12 +2,27 @@
 margin:0;box-sizing: border-box;
 }
 
-body{overflow-x: hidden;}
+html body{overflow-x: hidden;}
  h1{font-family: "Dancing Script", cursive}
 
  .carousel-item img{height:85vh; width:100% ; margin-top: 70px;}
 
  .card-body img{min-width:50%;max-width:200px;}
+a{cursor: pointer;}
+
+.at a:hover{color:blue !important;font-weight:500;text-decoration: dashed;text-decoration:underline; }
+
+@media(max-width:986px){     .carousel-item img{height:45vh;width:100%;
+}.abt img{height:10vh;width:80vw; display: flex;justify-self:center;border-radius:20px;}
+.a1 a{display: flex;justify-content: center;opacity:0.7;} .a1{a:hover{opacity: 1 !important;
+}} .a1{margin-bottom:20px !important;} .contact img{height:35vh !important;}
+.team .card{margin-bottom:8px;}
+.team  img,.card{height: 30vh; }
+.abt img{height:50vh;width:40vw } .ft h5{ display:none}    }
  
 
- 
+
+.ft img{overflow-x:hidden; height:35px; width: 50px; border: none !important ; } 
+.ft h5{font-size: small;margin-bottom: 20px;}
+.endbox{max-width:40vw;margin:auto;}
+
