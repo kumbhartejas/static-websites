@@ -1,0 +1,176 @@
+/* ============================================= */
+/* 
+univesal
+*/
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*
+root variables and buttons
+*/
+
+/* :root {
+  --primary-color: #A82C48;
+  --secondry-color: #43121d;
+  --third-color: #f98169;
+  --white-color: #fff;
+  --text-color: #555;
+  --text-gray: #999;
+  --black-color: #000;
+  --primary-font: 'Roboto', sans-serif;
+  --secondry-font: 'Quicksand', sans-serif;
+} */
+
+.button1{
+  width:4rem;
+  height: 2rem;
+  border-radius:20px;
+  border: 3px solid purple;
+  background: linear-gradient(to right,#43c6b2,#F8FFAE);
+  opacity:0.6;
+  color:rgba(32, 18, 18, 0.737);
+  font-size:25px;
+font-weight: 500;
+padding:10px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+.button1:hover{ color: rgb(226, 43, 43);transform: scale(1.2);
+box-shadow:black 0px 1px 8px 2px;}
+
+.btn2{padding:8px;border:1.7px solid darkslategray;
+color:blueviolet;
+border-radius: 10px;
+font-size:20px;
+font-weight: 400;
+background-color:lavenderblush;}
+.btn2:hover{color: white;
+background-color: rgba(222, 136, 135, 0.776);
+transform: scale(1.1) }
+/*
+Custom predefine CSS
+*/
+a,
+a:hover {
+  text-decoration: none;
+  cursor:pointer;
+
+}
+
+
+
+
+
+
+
+/* ============================================================================
+                           body css
+========================================================================*/
+
+/* nav--------------- */
+
+.navbar a:hover{color:blueviolet !important;font-size: 21px;}
+.navbar li a{color:brown !important; padding-right:20px !important; }
+.navbar li{font-size:20px; font-weight: 500;}
+.bar{border:none !important;}
+.log img{height:50px;width: 120px;margin-left: auto ;}
+.log img:hover{
+    transition: transform 0.3s ease-in-out;transform: scale(1.1)
+}
+.bar{padding: 10px;border-radius:30px
+  ;height:42px !important;margin-top: 5px;padding-right: 70px ;
+  background-color: rgb(246, 240, 233);}
+  .mag{transform: translateY(-50%);position: absolute;right:40px;top:10px }
+  .searche{position:relative !important; }
+  
+input::placeholder { /* lg search */
+  text-align: center;
+  color: gray; 
+  font-style: italic; 
+}
+.nlogo img{height:60px !important;width:100px !important; }
+
+/* search collaspse */
+.search_bar{z-index: 1080; position: fixed;width: 100%;margin-top: 20px;
+
+}
+.df{display: flex;justify-self:center !important ;width:80%;
+offset:none;box-shadow:none;}
+.srh{border-radius:10px; border:1px solid gray;width:100%; }
+.sclose{padding:2px;background-color:white !important;margin-right:2px; opacity: 1 !important;}
+
+
+
+.offcanvas-body{display: flex;justify-content:center;
+ font-size:30px; }
+.offcanvas-body a:hover{color:red; }
+
+.offcanvas{z-index: 2000 !important;}
+
+
+
+/* banner -------------*/
+.coverimg{background: url(images/bg/bg-1.jpg) center no-repeat;
+  background-size:cover;
+  padding:20.875rem 0 20.375rem;
+  width: 100%;
+position: relative;
+}
+.hero h1{  
+font-size: 90px;
+  color:crimson ;
+}
+.title{  position: absolute;
+  top:140px;
+height: auto;}
+
+/* section3 ----------- */
+
+
+.scrollbox{
+  height:400px; width:100%;
+  color:black;
+  display: flex;
+  background-color:seashell;
+  overflow-x: auto;
+  border-radius:10px;
+  padding:0 20px 0 20px ;
+  white-space: nowrap;
+  scrollbar-width: thin;
+}
+.scrollbox .icon{
+
+flex:0 0 30%;
+}
+
+.scrollbox{padding:4px 7px;}
+.scrollbox img{height:270px; width: 600px !important;} 
+.scrollbox p{font-size:40px; font-family:cursive;}
+ .scrollbox  .icon{margin:0 40px;}
+
+
+
+/* section4 2img -------------------- */
+.img1 img{border-radius: 10px;}
+
+.about{margin-top:120px;}
+
+
+/* ================================================================================================= */
+/*
+Responsiveness
+*/
+
+@media (max-width:800px) {.offcanvas{width:50vw !important;}
+  
+}
+@media (max-width:360px) {.hero h1,h2,h3,h4{font-size: 60px;}}
