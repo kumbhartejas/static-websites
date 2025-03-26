@@ -43,4 +43,6 @@ document.addEventListener("DOMContentLoaded", () => {
         let element = document.getElementById(id);
         if (element) observer.observe(element);
     });
-});
+}); 
+
+
