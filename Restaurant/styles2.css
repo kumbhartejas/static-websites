@@ -182,3 +182,37 @@ a:hover{
         font-size: 0.95rem;
     }
 }
+
+
+
+
+
+
+
+
+
+
+.explore{
+    height:300px; width:100%;
+  
+    display: flex;
+    background-color:var(--primary-color);
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-radius:10px;
+    padding:0 20px 0 20px ;
+   
+    scrollbar-width: thin;
+    
+  }
+  .explore .card{ 
+  
+  flex:0 0 40%;
+  }
+   
+  .explore{padding:5px 7px;}
+  .explore img{height:12rem; width: 15rem !important;} 
+  .explore p{font-size:10px; font-family:cursive;}
+   .explore  .card{margin:0 10px; 
+width:15rem;height:10rem} 
+
